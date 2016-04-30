@@ -9,11 +9,11 @@ gem 'turbolinks',   '2.3.0'
 gem 'jbuilder',     '2.2.3'
 gem 'rb-readline'
 gem 'sdoc',         '0.4.0', group: :doc
+gem 'web-console', '2.0.0.beta3', group: :development
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
-  gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
 end
 
